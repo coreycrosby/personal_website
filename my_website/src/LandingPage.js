@@ -11,11 +11,11 @@ const LandingPage = () => {
         </div>
         <nav className="Landing-nav">
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a className="underlined-white"href="Home">Home</a></li>
+                <li><a className="underlined-white"href="Profile">Profile</a></li>
+                <li><a className="underlined-white"href="Skills">Skills</a></li>
+                <li><a className="underlined-white"href="Projects">Projects</a></li>
+                <li><a className="underlined-white"href="Contact">Contact</a></li>
             </ul>
         </nav>
     </section>
