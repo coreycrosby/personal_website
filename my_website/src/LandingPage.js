@@ -7,7 +7,8 @@ const Landing = () => {
           <h2>Full-Stack Web Developer & Front-End Specialist.</h2>
         </div>
         <div className="Landing-name">
-          <h1>Corey Crosby</h1>
+          <h1>Corey <br/>
+          Crosby</h1>
         </div>
         <nav className="Landing-nav">
             <ul>
