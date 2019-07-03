@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <section className="Landing">
         <div className="Landing-title">
-          <h2>Full-Stack Web Developer & Front-End Specialist.</h2>
+          <h2>Full-Stack Web Developer & Front-End Specialist</h2>
         </div>
         <div className="Landing-name">
           <h1>Corey <br/>
