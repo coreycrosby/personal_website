@@ -1,14 +1,16 @@
 import React from 'react';
-import LandingPage from './LandingPage';
-import Profile from './Profile';
-import Skills from './Skills';
+import Landing from './LandingPage';
+import Profile from './ProfilePage';
+import Skills from './SkillsPage';
+import Contact from './ContactPage';
 
 const App = () => {
   return (
     <main>
-      <LandingPage />
+      <Landing />
       <Profile />
       <Skills />
+      <Contact />
     </main>    
     
     

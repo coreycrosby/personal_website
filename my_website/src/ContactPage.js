@@ -1,15 +1,18 @@
 import React from 'react';
 
-const Landing = () => {
+const Contact = () => {
   return (
-    <section className="Landing">
-        <div className="Landing-title">
-          <h2>Full-Stack Web Developer & Front-End Specialist.</h2>
+    <section className="Contact">
+        <div className="Contact-title">
+          <h1>Contact</h1>
         </div>
-        <div className="Landing-name">
-          <h1>Corey Crosby</h1>
-        </div>
-        <nav className="Landing-nav">
+        <form className="Contact-name">
+          <p>If you want to collaborate on bringing ideas to life – you are very welcome to contact me. 
+            <br/>
+            <br/>
+            I am available for full-time employment and freelance projects.</p>
+        </form>
+        <nav className="Contact-nav">
             <ul>
                 <li><a className="underlined-white"href="Home">Home</a></li>
                 <li><a className="underlined-white"href="Profile">Profile</a></li>
@@ -23,4 +26,4 @@ const Landing = () => {
   );
 }
 
-export default Landing;
+export default Contact;
