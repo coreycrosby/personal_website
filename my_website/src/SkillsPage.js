@@ -6,7 +6,7 @@ const Skills = () => {
         <div className="Skills-title">
           <h1>Skills</h1>
         </div>
-        <div className="Profile-info">
+        <div className="Skills-info">
           <h3>My main area of expertise is front-end development (client side of the web).
               <br />
               HTML, CSS, Javascript, building web apps with React.js, animations, features and coding interactive layouts.
@@ -15,7 +15,7 @@ const Skills = () => {
           </h3>
         </div>
         <div className="Skills-link-github">
-        <a href="https://github.com/coreycrosby/personal_website" class="button">See project on Github</a>
+        <a href="https://github.com/coreycrosby/personal_website" class="button">VIEW PROJECT ON GITHUB</a>
         </div>
 
         <nav className="Skills-nav">
