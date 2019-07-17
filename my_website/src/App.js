@@ -3,6 +3,7 @@ import Landing from './LandingPage';
 import Profile from './ProfilePage';
 import Skills from './SkillsPage';
 import Contact from './ContactPage';
+import Projects from './ProjectsPage';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Landing />
       <Profile />
       <Skills />
+      <Projects />
       <Contact />
     </main>    
     

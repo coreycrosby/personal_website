@@ -1,7 +1,7 @@
 .Landing {
   background-color: rgb(40, 40, 40);
   font-family:'Roboto', sans-serif;
-  padding: 64px 4px;
+  height: 100vh;
 }
 
 .Landing-name {
@@ -13,20 +13,21 @@
 
 .Landing-title {
   position: relative;
-  bottom: 30px;
   color: rgb(0, 255, 217);
   font-size: 14px;
   text-align: center;
+  text-transform: uppercase;
+  padding: 40px;
 }
 
 .Landing-nav ul > li {
   list-style-type: none;
   display: inline-block;  
   padding: 5px 10px;
+  text-transform: uppercase;
 }
 .Landing-nav ul {
   position: relative;
-  top: 20px;
   text-align: center;
 }
 
@@ -46,14 +47,22 @@
   padding-bottom: 10px;
 }
 
-.Profile {
-  background: linear-gradient(90deg, rgb(0, 255, 217) 50%, white 50%);
-  padding: 100px;
+.Profile-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
   font-family:'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.Profile-left {
+  background-color:rgb(0, 255, 217);
+}
+
+.Profile-right {
+  background-color: white;
 }
 
 .Profile-title {
-  position: relative;
   left: 100px;
   font-family: 'Arizonia', cursive;
   font-size: 50px;
@@ -66,11 +75,11 @@
   padding: 5px 10px;
 }
 
-.Profile-nav ul {
+.Profile-nav{
   position: relative;
-  left: 80px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
 }
-
 .Profile-nav a {
   color: black;
   text-decoration: none;
@@ -86,10 +95,20 @@
   padding-bottom: 10px;
 }
 
-.Skills {
-  background: linear-gradient(90deg, white 50%, rgb(40, 40, 40) 50%);
-  padding: 100px;
+.Skills-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
   font-family:'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.Skills-left {
+  background-color: white;
+}
+
+.Skills-right {
+  background-color: rgb(40, 40, 40);
+  color: white;
 }
 
 .Skills-title {
@@ -98,10 +117,9 @@
   color: black;
 }
 
-.Skills-info {
-  position: relative;
-  left: 500px;
-}
+/* .Skills-info {
+  
+} */
 
 .Skills-nav ul > li {
   list-style-type: none;
@@ -139,17 +157,77 @@
   background-color: rgb(0, 255, 217);
 }
 
-.Contact {
-  background: linear-gradient(90deg, rgb(40, 40, 40) 50%, white 50%);
-  padding: 100px;
+.Projects-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
   font-family:'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.Projects-left {
+  background-color: rgb(0, 255, 217);
+}
+
+.Projects-right {
+  background-color: white;
+}
+
+.Project-title {
+  left: 100px;
+  font-family: 'Arizonia', cursive;
+  font-size: 50px;
+  color: black;
+}
+
+.Project-nav ul > li {
+  list-style-type: none;
+  display: inline-block;  
+  padding: 5px 10px;
+}
+
+/* .Project-nav ul {
+ 
+} */
+
+.Project-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Project-nav a:visited {
+  text-decoration: none;
+}
+
+.Project-nav a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.Contact-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  font-family:'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.Contact-left {
+  background-color: white;
+}
+
+.Contact-right {
+  background-color: rgb(40, 40, 40);
 }
 
 .Contact-title {
   font-family: 'Arizonia', cursive;
   font-size: 50px;
-  color: white;
+  color: black;
 }
+
+/* .Contact-info {
+  
+} */
 
 .Contact-nav ul > li {
   list-style-type: none;
@@ -157,9 +235,8 @@
   padding: 5px 10px;
 }
 
-
 .Contact-nav a {
-  color: rgb(0, 255, 217);
+  color: black;
   text-decoration: none;
   font-size: 14px;
 }
@@ -169,6 +246,21 @@
 }
 
 .Contact-nav a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(0, 255, 217);
   padding-bottom: 10px;
+}
+
+.Contact-link-github a {
+  text-decoration: none;
+  color:rgb(0, 255, 217);
+  border: 1px solid rgb(0, 255, 217);
+  letter-spacing: 2px;
+  padding: 8px 12px;
+  float: right;
+  font-size: 12px;
+}
+
+.Contact-link-github a:hover {
+  color: rgb(40, 40, 40);
+  background-color: rgb(0, 255, 217);
 }
