@@ -1,4 +1,5 @@
 import React from 'react';
+import Headshot from './headshot.jpg';
 
 const Profile = () => {
   return (
@@ -17,6 +18,7 @@ const Profile = () => {
         </nav>
         </div>
         <div className="Profile-right">
+        <img src={Headshot} alt="headshot of Corey Crosby" />
           <div className="Profile-info">
             <h1 className="Profile-about">About me</h1>
             <p>Full-stack web developer and sports enthusiast who enjoys the importance of teamwork in a goal oriented environment. Inspired by visual aesthetics and driven to create intuitive design and function while maintaining clean code. I am a creative-minded, solutions-driven developer that is motivated to bring ideas to life through the screens we stare at regularly.  </p>

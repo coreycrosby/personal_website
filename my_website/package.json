@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "hover.css": "^2.3.2",
+    "jquery": "^3.4.1",
     "mdbootstrap": "^4.8.7",
     "mdbreact": "^4.19.0",
     "node-sass": "^4.12.0",
