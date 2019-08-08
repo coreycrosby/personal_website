@@ -2,17 +2,17 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="Contact-container">
+    <section id="Contact">
       <div className="Contact-left">
         <div className="Contact-title">
           <h1>Contact</h1>
         </div>
         <nav className="Contact-nav">
             <ul>
-                <li><a className="underlined-white"href="Profile">Profile</a></li>
-                <li><a className="underlined-white"href="Skills">Skills</a></li>
-                <li><a className="underlined-white"href="Projects">Projects</a></li>
-                <li><a className="underlined-white"href="Contact">Contact</a></li>
+                <li><a className="underlined-white"href="#Profile">Profile</a></li>
+                <li><a className="underlined-white"href="#Skills">Skills</a></li>
+                <li><a className="underlined-white"href="#Projects">Projects</a></li>
+                <li><a className="underlined-white"href="#Contact">Contact</a></li>
             </ul>
         </nav>
       </div>
