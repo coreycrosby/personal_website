@@ -39,16 +39,29 @@ const Contact = () => {
         </nav>
       </div>
       <div className="Contact-right">
-        <form className="Contact-name">
+        <div className="Contact-paragraph">
           <p>If you want to collaborate on bringing ideas to life – you are very welcome to contact me. 
             <br/>
             <br/>
-            I am available for full-time employment and freelance projects.</p>
-        </form>
+            I am available for full-time employment and freelance projects.
+            <br/>
+            <br/>
+            <h2 className="Contact-name">Corey Crosby</h2>
+            <br/>
+            Full-stack web developer
+            <br/>
+            <a className="Contact-email" href="mailto: corey.c.crosby@gmail.com">corey.c.crosby@gmail.com</a>
+            <br />
+            (647) 996 8674
+            <br/>
+            <br/>
+            <br/>
+              <a className="Contact-Linkedin-icon"href="https://www.linkedin.com/in/corey-crosby-8aa5b0188/" target="_blank"><i class="fab fa-linkedin hvr-grow"></i></a>
+              <a className="Contact-Github-icon"href="https://github.com/coreycrosby" target="_blank"><i class="fab fa-github hvr-grow"></i></a>
+            </p>
+        </div>
       </div>
-        
     </section>
-    
   );
 }
 

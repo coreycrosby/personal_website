@@ -26,7 +26,7 @@ const Landing = () => {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 150 - Math.random() * 100;
   
     if (this.isDeleting) { delta /= 2; }
   
@@ -111,7 +111,7 @@ const Landing = () => {
             <span 
             class="txt-rotate"
             data-period="2000"
-            data-rotate='[" a front-end specialist.", " based in Toronto.", " available for freelance work.", " a sports enthusiast.", " a fashion icon."]'></span>
+            data-rotate='[" a front-end specialist.", " based in Toronto.", " available for freelance projects.", " a sports enthusiast.", " a fashion icon."]'></span>
             </h2>
         </div>
       </div>
