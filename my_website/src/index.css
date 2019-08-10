@@ -2,6 +2,8 @@
   background-color: rgb(40, 40, 40);
   font-family:'Roboto', sans-serif;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 15% 85%;
 }
 
 .Landing-name {
@@ -374,9 +376,138 @@ p {
   transition-property: transform;
 }
 
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.5s;
+}
+
+
+
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.7);
 }
 
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px rgb(0, 255, 217); }
+  40% { box-shadow: 0 0 20px rgb(0, 255, 217); }
+  60% { box-shadow: 0 0 20px rgb(0, 255, 217); }
+  100% { box-shadow: 0 0 -10px rgb(0, 255, 217); }
+}
+
+.glow {
+  animation: glowing 5000ms infinite;
+}
+  
+
+.animate {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Orbitron', sans-serif;
+  margin: 170px;
+  padding: 15px 2px 0px;
+}
+
+.animate span {
+	display: inline-block;
+}
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+
+
+.seven span {
+  color: white;
+	opacity: 0;
+	transform: translate(-150px, 0) scale(.3);
+	animation: leftRight .5s forwards;
+}
+
+
+@keyframes leftRight {
+	40% {
+		transform: translate(50px, 0) scale(.7);
+		opacity: 1;
+		color: pink;
+	}
+
+	60% {
+		color: rgb(0, 255, 217);
+	}
+
+	80% {
+		transform: translate(0) scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+	}
+}

@@ -3,13 +3,7 @@ import React from 'react';
 const Landing = () => {
   return (
     <section className="Landing">
-        <div className="Landing-title">
-          <h2>Full-Stack Web Developer & Front-End Specialist</h2>
-        </div>
-        <div className="Landing-name">
-          <h1>Corey <br/>
-          Crosby</h1>
-        </div>
+      <div className="Landing-left">
         <nav id="Landing-nav">
             <ul className="Pages">
               
@@ -24,6 +18,16 @@ const Landing = () => {
                 <li><a className="Email-icon"href="mailto: corey.c.crosby@gmail.com" target="_blank"><i class="far fa-envelope hvr-grow"></i></a></li>
             </ul>
         </nav>
+      </div>
+      <div className="Landing-right">
+        <div className="Landing-title">
+          <h2>Full-Stack Web Developer & Front-End Specialist</h2>
+        </div>
+        <div className="animate seven glow">
+			<span>C</span><span>O</span><span>R</span><span>E</span><span>Y</span> &nbsp;
+			<span>C</span><span>R</span><span>O</span><span>S</span><span>B</span><span>Y</span>
+      </div>
+      </div>
     </section>
     
   );
