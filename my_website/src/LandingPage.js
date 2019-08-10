@@ -82,12 +82,15 @@ const Landing = () => {
 			<span>C</span><span>O</span><span>R</span><span>E</span><span>Y</span> &nbsp;
 			<span>C</span><span>R</span><span>O</span><span>S</span><span>B</span><span>Y</span>
       </div>
+      <div className="Landing-title-tag">
+        <h3>Web Developer</h3>
+      </div>
       <div className="Landing-typing">
           <h2>I'm 
             <span 
             class="txt-rotate"
             data-period="2000"
-            data-rotate='[" a front-end developer.", " based in Toronto.", " available for freelance work.", " a sports enthusiast.", " fashion icon."]'></span>
+            data-rotate='[" a front-end specialist.", " based in Toronto.", " available for freelance work.", " a sports enthusiast.", " fashion icon."]'></span>
             </h2>
         </div>
       </div>
