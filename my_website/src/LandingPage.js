@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 
 const Landing = () => {
 
@@ -59,13 +60,33 @@ const Landing = () => {
     document.body.appendChild(css);
   };
 
+  $(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+    
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+    
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+    
+    // top position relative to the document
+    var pos = $id.offset().top;
+    
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos}, 1000);
+});
+
   return (
     <section className="Landing">
       <div className="Landing-left">
         <nav id="Landing-nav">
             <ul className="Pages">
               
-                <li><a href="#Profile"><i class="far fa-user"></i><b>Profile</b></a></li>
+                <li><a href="#Profile"><i class="far fa-user Profile-click"></i><b>Profile</b></a></li>
                 <li><a href="#Skills"><i class="fas fa-code"></i><b>Skills</b></a></li>
                 <li><a href="#Projects"><i class="fas fa-eye"></i><b>Projects</b></a></li>
                 <li><a href="#Contact"><i class="far fa-address-card"></i><b>Contact</b></a></li>
@@ -90,7 +111,7 @@ const Landing = () => {
             <span 
             class="txt-rotate"
             data-period="2000"
-            data-rotate='[" a front-end specialist.", " based in Toronto.", " available for freelance work.", " a sports enthusiast.", " fashion icon."]'></span>
+            data-rotate='[" a front-end specialist.", " based in Toronto.", " available for freelance work.", " a sports enthusiast.", " a fashion icon."]'></span>
             </h2>
         </div>
       </div>

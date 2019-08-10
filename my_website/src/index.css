@@ -155,6 +155,7 @@ b {
   position: relative;
   text-align: center;
   padding: 145px 0px;
+  letter-spacing: 2px;
 }
 .Profile-nav a {
   color: black;
@@ -207,6 +208,7 @@ b {
   position: relative;
   text-align: center;
   padding: 145px 0px;
+  letter-spacing: 2px;
 }
 
 .Skills-nav ul > li {
@@ -283,6 +285,8 @@ b {
   position: relative;
   text-align: center;
   padding: 145px 0px;
+  letter-spacing: 2px;
+
 }
 
 .Project-nav a {
@@ -329,6 +333,8 @@ b {
   position: relative;
   text-align: center;
   padding: 145px 0px;
+  letter-spacing: 2px;
+
 }
 
 .Contact-nav ul > li {
