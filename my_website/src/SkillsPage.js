@@ -47,6 +47,11 @@ const Skills = () => {
               <br />
               <br />
               I also have full-stack developer experience building web apps with Python and Django.
+              <br />
+              <br />
+              Visit my
+              <a className="Skills-linkedin" href=" https://www.linkedin.com/in/corey-crosby-8aa5b0188/" target="_blank"> LinkedIn </a>
+              profile for more details.
           </p>
         </div>
         <br />

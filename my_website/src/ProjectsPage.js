@@ -1,4 +1,6 @@
 import React from 'react';
+import Fridgenerate from './fridgenerate.jpg';
+import Punchstarter from './punchstarter.jpg';
 import $ from 'jquery';
 
 const Projects = () => {
@@ -39,6 +41,8 @@ const Projects = () => {
         </nav>
       </div>
       <div className="Projects-right">
+      <a href="https://github.com/BrodyCur/Fridgenerate" target="_blank"><img src={Fridgenerate} alt="screenshot of Fridgenerate project" /></a>
+      <a href="https://github.com/kevinpatel22/crowdfunder" target="_blank"><img src={Punchstarter} alt="screenshot of Punchstarter project" /></a>
       </div>
     </section>
     
