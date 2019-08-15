@@ -31,6 +31,12 @@ const Projects = () => {
         <div className="Project-title">
           <h1>Projects</h1>
         </div>
+        <nav className="Project-list-nav">
+            <ul>
+                <li><a className="my-projects"href="https://github.com/BrodyCur/Fridgenerate" target="_blank">Fridgenerate</a></li>
+                <li><a className="my-projects"href="https://github.com/kevinpatel22/crowdfunder" target="_blank">Punchstarter</a></li>
+            </ul>
+        </nav>
         <nav className="Project-nav">
             <ul>
                 <li><a className="underlined-white"href="#Profile">Profile</a></li>
