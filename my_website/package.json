@@ -2,7 +2,7 @@
   "name": "my_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coreycrosby.ca",
+  "homepage": "http://coreycrosby.github.io/",
   "dependencies": {
     "hover.css": "^2.3.2",
     "jquery": "^3.4.1",
