@@ -2,7 +2,7 @@
   "name": "my_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://coreycrosby.github.io/",
+  "homepage": "http://www.coreycrosby.github.io/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "hover.css": "^2.3.2",
