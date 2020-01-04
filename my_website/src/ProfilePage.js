@@ -43,7 +43,7 @@ const Profile = () => {
         <img src={Headshot} alt="headshot of Corey Crosby" />
           <div className="Profile-info default">
             <h1 className="Profile-about">About me</h1>
-            <p>An ambitious sports enthusiast and new graduate in Business Technology Management interested in exploring design, digital marketing, front end development and content creation. Inspired by visual aesthetics and driven to create intuitive design along with 5 years of customer service experience within the retail industry. A determined leader who is dedicated to continuously learn and develop professionally.   </p>
+            <p>An ambitious sports enthusiast and new graduate from Business Technology Management interested in exploring design, digital marketing, front end development and content creation. Inspired by visual aesthetics and driven to create intuitive design along with 5 years of customer service experience within the retail industry. A determined leader who is dedicated to continuously learn and develop professionally.   </p>
             <br/>
             <p>
             Connect with me on
