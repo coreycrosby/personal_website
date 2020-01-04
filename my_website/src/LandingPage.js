@@ -104,7 +104,7 @@ const Landing = () => {
 			<span>C</span><span>R</span><span>O</span><span>S</span><span>B</span><span>Y</span>
       </div>
       <div className="Landing-title-tag">
-        <h3>Web Developer</h3>
+        <h3>Web Developer/Designer</h3>
       </div>
       <div className="Landing-typing">
           <h2>I'm 

@@ -41,9 +41,15 @@ const Profile = () => {
         </div>
         <div className="Profile-right">
         <img src={Headshot} alt="headshot of Corey Crosby" />
-          <div className="Profile-info">
+          <div className="Profile-info default">
             <h1 className="Profile-about">About me</h1>
-            <p>Full-stack web developer and sports enthusiast who enjoys the importance of teamwork in a goal oriented environment. Inspired by visual aesthetics and driven to create intuitive design and function while maintaining clean code. I am a creative-minded, solutions-driven developer that is motivated to bring ideas to life through the screens we stare at regularly.  </p>
+            <p>An ambitious sports enthusiast and new graduate in Business Technology Management interested in exploring design, digital marketing, front end development and content creation. Inspired by visual aesthetics and driven to create intuitive design along with 5 years of customer service experience within the retail industry. A determined leader who is dedicated to continuously learn and develop professionally.   </p>
+            <br/>
+            <p>
+            Connect with me on
+              <a className="Skills-resume" href= "https://www.linkedin.com/in/corey-crosby-8aa5b0188/" target="_blank"> Linkedin </a>
+              .
+            </p>
           </div>
         </div>
     </section>

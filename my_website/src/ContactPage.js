@@ -39,8 +39,8 @@ const Contact = () => {
         </nav>
       </div>
       <div className="Contact-right">
-        <div className="Contact-paragraph">
-          <p>If you want to collaborate on bringing ideas to life – you are very welcome to contact me. 
+        <div className="Contact-paragraph default">
+          <p><span className="hvr-buzz-out">If</span> <span className="hvr-buzz-out">you</span> <span className="hvr-buzz-out">want</span> <span className="hvr-buzz-out">to</span> <span className="hvr-buzz-out">collaborate</span> <span className="hvr-buzz-out">on</span> <span className="hvr-buzz-out">bringing</span> <span className="hvr-buzz-out">ideas</span> <span className="hvr-buzz-out">to</span> <span className="hvr-buzz-out">life</span> – you are very welcome to contact me. 
             <br/>
             <br/>
             I am available for full-time employment and freelance projects.
@@ -48,7 +48,7 @@ const Contact = () => {
             <br/>
             <h2 className="Contact-name">Corey Crosby</h2>
             <br/>
-            Full-stack web developer
+            Front-end web developer/designer
             <br/>
             <a className="Contact-email" href="mailto: corey.c.crosby@gmail.com">corey.c.crosby@gmail.com</a>
             <br />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Pdf from './Resume.pdf';
 import $ from 'jquery';
 
 const Skills = () => {
@@ -39,28 +40,38 @@ const Skills = () => {
         </nav>
       </div>
       <div className="Skills-right">
-        <div className="Skills-info">
-          <p>My main area of expertise is front-end development (client side of the web).
+        <div className="Skills-info default">
+          <p>My main area of expertise is front-end development. (client side of the web).
               <br />
               <br />
-              HTML, CSS, Javascript, building web apps with React.js, animations, features and coding interactive layouts.
+              HTML, CSS, Javascript, building web apps with React.js, animations, features and coding interactive and intuitive layouts.
               <br />
               <br />
-              I also have full-stack developer experience building web apps with Python and Django.
+              I also have experience creating logos, editing photos and videos using graphics editing software such as Adobe Illustrator, Photoshop and Premiere Pro.
               <br />
               <br />
-              Visit my
-              <a className="Skills-linkedin" href=" https://www.linkedin.com/in/corey-crosby-8aa5b0188/" target="_blank"> LinkedIn </a>
-              profile for more details.
-          </p>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="Skills-link-github">
-        <a href="https://github.com/coreycrosby/personal_website" class="button" target="_blank">VIEW PROJECT ON GITHUB</a>
+        <a href={Pdf} class="button" target="_blank">VIEW RESUME</a>
+        </div>
+          </p>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+        </div>
+        <div className="Skills-right-container">
+                <li><a className="HTML-icon"><i class="fab fa-html5"></i><p>HTML5</p></a></li>
+                <li><a className="CSS-icon"><i class="fab fa-css3-alt"></i><p>CSS3</p></a></li>
+                <li><a className="Javascript-icon"><i class="fab fa-js-square"></i><p>Javascript</p></a></li>
+                <li><a className="React-icon"><i class="fab fa-react"></i><p>React</p></a></li>
+                <li><a className="VS-icon"><i class="fas fa-file-code"></i><p>Visual Studio Code</p></a></li>
+                <li><a className="Git-icon"><i class="fab fa-github1"></i><p>Git & Github</p></a></li>
+                <li><a className="Illustrator-icon"><i class="fab fa-adobe1"></i><p>Adobe Illustrator</p></a></li>
+                <li><a className="Photoshop-icon"><i class="fab fa-adobe2"></i><p>Adobe Photoshop</p></a></li>
+                <li><a className="Premiere-icon"><i class="fab fa-adobe3"></i><p>Adobe Premiere Pro</p></a></li>
+                <li><a className="Word-icon"><i class="fab fa-microsoft"></i><p>Microsoft Word</p></a></li>
+                <li><a className="Excel-icon"><i class="fab fa-microsoft1"></i><p>Microsoft Excel</p></a></li>
+                <li><a className="Powerpoint-icon"><i class="fab fa-microsoft2"></i><p>Microsoft Powerpoint</p></a></li>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Fridgenerate from './fridgenerate.jpg';
-import Punchstarter from './punchstarter.jpg';
+import Holy_Grails from './holygrails.jpg';
 import $ from 'jquery';
 
 const Projects = () => {
@@ -33,8 +33,8 @@ const Projects = () => {
         </div>
         <nav className="Project-list-nav">
             <ul>
-                <li><a className="my-projects"href="https://github.com/BrodyCur/Fridgenerate" target="_blank">Fridgenerate</a></li>
-                <li><a className="my-projects"href="https://github.com/kevinpatel22/crowdfunder" target="_blank">Punchstarter</a></li>
+                <li><a className="my-projects"href="http://fridgenerate.herokuapp.com/" target="_blank">Fridgenerate</a></li>
+                <li><a className="my-projects"href="https://coreycrosby.wixsite.com/holygrails" target="_blank">Holy Grails</a></li>
             </ul>
         </nav>
         <nav className="Project-nav">
@@ -47,8 +47,8 @@ const Projects = () => {
         </nav>
       </div>
       <div className="Projects-right">
-      <a href="https://github.com/BrodyCur/Fridgenerate" target="_blank"><img src={Fridgenerate} alt="screenshot of Fridgenerate project" /></a>
-      <a href="https://github.com/kevinpatel22/crowdfunder" target="_blank"><img src={Punchstarter} alt="screenshot of Punchstarter project" /></a>
+      <a href="http://fridgenerate.herokuapp.com/" target="_blank"><img src={Fridgenerate} alt="screenshot of Fridgenerate project" /></a>
+      <a href="https://coreycrosby.wixsite.com/holygrails" target="_blank"><img src={Holy_Grails} alt="screenshot of Holy Grails project" /></a>
       </div>
     </section>
     
