@@ -214,72 +214,72 @@ text-align: center;
 
 .fa-html5:before {
   content: "\f13b";
-  font-size: 100px;
+  font-size: 75px;
   color: orangered;
 }
 
 .fa-css3-alt:before {
   content: "\f38b";
-  font-size: 100px;
+  font-size: 75px;
   color: gold;
 }
 
 .fa-js-square:before {
   content: "\f3b9";
-  font-size: 100px;
+  font-size: 75px;
   color: purple;
 }
 
 .fa-react:before {
   content: "\f41b";
-  font-size: 100px;
+  font-size: 75px;
   color: lightskyblue;
 }
 
 .fa-file-code:before {
   content: "\f1c9";
-  font-size: 100px;
+  font-size: 75px;
   color: green;
 }
 
 .fa-github1:before {
   content: "\f09b";
-  font-size: 100px;
+  font-size: 75px;
 }
 
 .fa-microsoft:before {
   content: "\f3ca";
-  font-size: 100px;
+  font-size: 75px;
   color: blue;
 }
 
 .fa-microsoft1:before {
   content: "\f3ca";
-  font-size: 100px;
+  font-size: 75px;
   color: greenyellow;
 }
 
 .fa-microsoft2:before {
   content: "\f3ca";
-  font-size: 100px;
+  font-size: 75px;
   color: orangered;
 }
 
 .fa-adobe1:before {
   content: "\f778";
-  font-size: 100px;
+  font-size: 75px;
   color: orange;
 }
 
 .fa-adobe2:before {
   content: "\f778";
-  font-size: 100px;
+  font-size: 75px;
   color: lightskyblue;
 }
 
 .fa-adobe3:before {
   content: "\f778";
-  font-size: 100px;
+  font-size: 75px;
   color: violet;
 }
 
