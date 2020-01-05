@@ -1,6 +1,7 @@
 import React from 'react';
 import Fridgenerate from './fridgenerate.jpg';
 import Holy_Grails from './holygrails.jpg';
+import Photoshop from './photoshop.jpg';
 import $ from 'jquery';
 
 const Projects = () => {
@@ -35,6 +36,7 @@ const Projects = () => {
             <ul>
                 <li><a className="my-projects"href="http://fridgenerate.herokuapp.com/" target="_blank">Fridgenerate</a></li>
                 <li><a className="my-projects"href="https://coreycrosby.wixsite.com/holygrails" target="_blank">Holy Grails</a></li>
+                <li><a className="my-projects"href={Photoshop} target="_blank">Views Album Cover (Photoshop)</a></li>
             </ul>
         </nav>
         <nav className="Project-nav">
@@ -48,10 +50,10 @@ const Projects = () => {
       </div>
       <div className="Projects-right">
       <a href="http://fridgenerate.herokuapp.com/" target="_blank"><img src={Fridgenerate} alt="screenshot of Fridgenerate project" /></a>
-      <a href="https://coreycrosby.wixsite.com/holygrails" target="_blank"><img src={Holy_Grails} alt="screenshot of Holy Grails project" /></a>
+      <a href="https://coreycrosby.wixsite.com/holygrails" target="_blank"><img src={Holy_Grails} alt="Holy Grails Landing page" /></a>
+      <a href={Photoshop} target="_blank"><img src={Photoshop}alt="Photoshop Picture" /> </a>
       </div>
     </section>
-    
   );
 }
 
