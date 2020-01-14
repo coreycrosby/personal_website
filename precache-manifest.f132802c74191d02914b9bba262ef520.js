@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb7cbfe1f9e3480738468251b91cfbbf",
+    "revision": "b335f4c0b0559fc863cef8f3390a7e19",
     "url": "/index.html"
   },
   {
-    "revision": "1b9a593ebaf6f902d7ca",
+    "revision": "1ecb97f3a562ca970483",
     "url": "/static/css/main.19b9a0c3.chunk.css"
   },
   {
-    "revision": "50ba22b901860029a814",
-    "url": "/static/js/2.acebf7cf.chunk.js"
+    "revision": "59ebe13bae7f3dc69410",
+    "url": "/static/js/2.41c30551.chunk.js"
   },
   {
-    "revision": "1b9a593ebaf6f902d7ca",
-    "url": "/static/js/main.68083f56.chunk.js"
+    "revision": "1ecb97f3a562ca970483",
+    "url": "/static/js/main.5f54c590.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1e6a2de4b1f2aca5a22cabde8734d09c",
     "url": "/static/media/photoshop.1e6a2de4.jpg"
+  },
+  {
+    "revision": "e8fa88618cdc9b08f1cfca04898f337f",
+    "url": "/static/media/torontologo.e8fa8861.jpg"
   }
 ]);

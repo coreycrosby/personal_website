@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.19b9a0c3.chunk.css",
-    "main.js": "/static/js/main.68083f56.chunk.js",
-    "main.js.map": "/static/js/main.68083f56.chunk.js.map",
+    "main.js": "/static/js/main.5f54c590.chunk.js",
+    "main.js.map": "/static/js/main.5f54c590.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.acebf7cf.chunk.js": "/static/js/2.acebf7cf.chunk.js",
-    "static/js/2.acebf7cf.chunk.js.map": "/static/js/2.acebf7cf.chunk.js.map",
+    "static/js/2.41c30551.chunk.js": "/static/js/2.41c30551.chunk.js",
+    "static/js/2.41c30551.chunk.js.map": "/static/js/2.41c30551.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4897903a5eacc95ed7be4da7fedefc5e.js": "/precache-manifest.4897903a5eacc95ed7be4da7fedefc5e.js",
+    "precache-manifest.f132802c74191d02914b9bba262ef520.js": "/precache-manifest.f132802c74191d02914b9bba262ef520.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.19b9a0c3.chunk.css.map": "/static/css/main.19b9a0c3.chunk.css.map",
     "static/media/Resume.pdf": "/static/media/Resume.6c448cf1.pdf",
     "static/media/fridgenerate.jpg": "/static/media/fridgenerate.3f3ad868.jpg",
     "static/media/headshot.jpg": "/static/media/headshot.2bf59744.jpg",
     "static/media/holygrails.jpg": "/static/media/holygrails.b361a20d.jpg",
-    "static/media/photoshop.jpg": "/static/media/photoshop.1e6a2de4.jpg"
+    "static/media/photoshop.jpg": "/static/media/photoshop.1e6a2de4.jpg",
+    "static/media/torontologo.jpg": "/static/media/torontologo.e8fa8861.jpg"
   }
 }
