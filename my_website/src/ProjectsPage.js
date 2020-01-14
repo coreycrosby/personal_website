@@ -2,6 +2,7 @@ import React from 'react';
 import Fridgenerate from './fridgenerate.jpg';
 import Holy_Grails from './holygrails.jpg';
 import Photoshop from './photoshop.jpg';
+import Illustrator from './torontologo.jpg';
 import $ from 'jquery';
 
 const Projects = () => {
@@ -36,7 +37,9 @@ const Projects = () => {
             <ul>
                 <li><a className="my-projects"href="http://fridgenerate.herokuapp.com/" target="_blank">Fridgenerate</a></li>
                 <li><a className="my-projects"href="https://coreycrosby.wixsite.com/holygrails" target="_blank">Holy Grails</a></li>
+                <br/>
                 <li><a className="my-projects"href={Photoshop} target="_blank">Views Album Cover (Photoshop)</a></li>
+                <li><a className="my-projects"href={Illustrator} target="_blank">Toronto Logo (Illustrator)</a></li>
             </ul>
         </nav>
         <nav className="Project-nav">
@@ -52,6 +55,7 @@ const Projects = () => {
       <a href="http://fridgenerate.herokuapp.com/" target="_blank"><img src={Fridgenerate} alt="screenshot of Fridgenerate project" /></a>
       <a href="https://coreycrosby.wixsite.com/holygrails" target="_blank"><img src={Holy_Grails} alt="Holy Grails Landing page" /></a>
       <a href={Photoshop} target="_blank"><img src={Photoshop}alt="Photoshop Picture" /> </a>
+      <a href={Illustrator} target="_blank"><img src={Illustrator}alt="Illustrator Logo" /> </a>
       </div>
     </section>
   );
